@@ -5,7 +5,7 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
     padding: 0;
 }
 
-fieldset, img, input, button { 			/*fieldset组合表单中的相关元素*/
+fieldset, img, input, button { /*fieldset组合表单中的相关元素*/
     border: none;
     padding: 0;
     margin: 0;
@@ -13,7 +13,7 @@ fieldset, img, input, button { 			/*fieldset组合表单中的相关元素*/
 }
 
 ul, ol {
-    list-style: none;				/*清除列表风格*/
+    list-style: none; /*清除列表风格*/
 }
 
 input {
@@ -43,12 +43,11 @@ img {
 
 /*  去掉图片低测默认的3像素空白缝隙*/
 table {
-    border-collapse: collapse;			/*合并外边线*/
+    border-collapse: collapse; /*合并外边线*/
 }
 
-
 body {
-    font: 12px/150% Arial, Verdana, "\5b8b\4f53";	/*宋体，Unicode，统一码*/
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53"; /*宋体，Unicode，统一码*/
     color: #666;
     background: #fff
 }
@@ -120,3 +119,142 @@ s, i, em {
 .hide {
     display: none
 }
+
+    /*site-nav 部分 start*/
+    .site-nav {
+        height: 30px;
+        line-height: 30px;
+        background-color: #F1F1F1;
+    }
+    .site-nav-send ,
+    .site-nav-r .fore{
+        position: relative;
+        padding: 0 25px 0 10px;
+
+    }
+    .site-nav-send:hover{
+        background-color: #FFF;
+    }
+    .site-nav-send i ,
+    .site-nav-r i{
+        position: absolute;
+        top: 12px;
+        right: 8px;
+        width: 15px;
+        height: 7px;
+        overflow: hidden;
+    }
+    .site-nav-send s ,
+    .site-nav-r s{
+        /*display: block;
+        margin-top: -7px;*/
+        position: absolute;
+        top: -7px;
+        font: 400 13px/15px "consolas";
+    }
+    .site-nav-r li{
+        float: left;
+        padding-left: 10px;
+    }
+    .site-nav-r .line{
+        background-color: #DDD;
+        width: 1px;
+        height: 12px;
+        margin-top: 10px;
+        padding: 0;
+        margin-left: 10px;
+    }
+    .site-nav-r .jd-tel{
+        padding-left: 25px;
+    }
+    .jd-tel span{
+        position: absolute;
+        top: 5px;
+        left: 6px;
+        width: 15px;
+        height: 20px;
+        background: url("../images/tel.png") no-repeat ;
+    }
+
+   /*top-banner部分  start*/
+    .top-banner{
+        background-color: orange;
+    }
+    .tb{
+        position: relative;
+    }
+    .close-banner{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 19px;
+        height: 19px;
+        background: url("../images/close-banner.png") no-repeat;
+    }
+    .close-banner:hover{
+        background-position: bottom;
+    }
+
+    /*top-banner部分  start*/
+    .search-logo{
+        float: left;
+        width: 362px;
+        height: 100px;
+        background-color: red;
+
+    }
+    .search-input{
+        float: left;
+        width: 538px;
+        height: 61px;
+        background-color: pink;
+    }
+    .search-car{
+        float: right;
+        width: 139px;
+        height: 34px;
+        border: 1px solid #DFDFDF;
+        margin: 25px 65px 0 0;
+        background-color: #F9F9F9;
+
+    }
+    .search-moreAlink{
+        float: left;
+        width: 538px;
+        height: 28px;
+        background-color: green;
+    }
+
+    /*top-banner部分  start*/
+    /*top-banner部分  start*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
