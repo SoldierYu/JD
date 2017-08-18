@@ -200,31 +200,91 @@ s, i, em {
         float: left;
         width: 362px;
         height: 100px;
-        background-color: red;
-
+    }
+    .search-logo a{
+        display: block;
+        width: 270px;
+        height: 60px;
+        margin: 20px 0;
+        text-indent: -9999px;
+        background: url("../images/logo.png") no-repeat;
     }
     .search-input{
         float: left;
-        width: 538px;
-        height: 61px;
-        background-color: pink;
+        height: 36px;
+        padding-top: 25px;
+    }
+    .search-input input{
+        float: left;
+        width: 450px;
+        height: 32px;
+        border: 2px solid red;
+        border-right: 0;
+        background-color: #F9F9F9;
+        padding-left: 4px;
+        font: 400 14px/36px "微软雅黑";
+    }
+    .search-input button{
+        float: left;
+        width: 82px;
+        height: 36px;
+        cursor: pointer;
+        font: 400 16px/36px "微软雅黑";
+        color: #FFFFFF;
+        background-color: red;
     }
     .search-car{
+        position: relative;
         float: right;
         width: 139px;
         height: 34px;
         border: 1px solid #DFDFDF;
         margin: 25px 65px 0 0;
         background-color: #F9F9F9;
+    }
+
+    .search-car a{
+        font:400 13px/34px "SimSun";
+        padding-left: 30px;
+    }
+    .search-car .icon1{
+        position: absolute;
+        left: 8px;
+        top: 9px;
+        width: 19px;
+        height: 15px;
+        background: url("../images/tel.png") no-repeat 0 -58px;
+    }
+
+    .search-car .icon2{
+        position: absolute;
+        top: -5px;
+        width: 16px;
+        height: 14px;
+        line-height: 14px;
+        text-align: center;
+        color: white;
+        border-radius: 7px 7px 7px 0;
+        background-color: red;
+    }
+    .search-car .icon3{
+        position: absolute;
+        right: 10px;
+        color: #999;
+        font: 13px/34px "SimSun";
 
     }
+
     .search-moreAlink{
         float: left;
         width: 538px;
         height: 28px;
-        background-color: green;
+        line-height: 28px;
     }
 
+    .search-moreAlink a{
+        margin-left: 10px;
+    }
     /*top-banner部分  start*/
     /*top-banner部分  start*/
 
