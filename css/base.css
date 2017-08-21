@@ -285,7 +285,127 @@ s, i, em {
     .search-moreAlink a{
         margin-left: 10px;
     }
+
     /*top-banner部分  start*/
+    .shotcut-nav{
+        width: 100%;
+        height: 44px;
+        border-bottom: 2px solid #B1191A;
+    }
+    .shotcut-nav-menu{
+        width: 210px;
+        height: 44px;
+        float: left;
+        background-color: #C81623;
+    }
+    .shotcut-nav-menu-all a{
+        display: block;
+        width: 210px;
+        height: 44px;
+        padding: 0 10px;
+        font: 400 16px/44px "microsoft yahei";
+        color: white;
+    }
+    .shotcut-nav-menu-one{
+        width: 210px;
+        height: 464px;
+        margin-top: 2px;
+        background-color: #C81623;
+        border-left: 2px solid #B1191A;
+        border-bottom: 2px solid #B1191A;
+    }
+    .shotcut-nav-items{
+        width: 730px;
+        height: 44px;
+        float: left;
+        background-color: pink;
+    }
+    .shotcut-nav-img{
+        width: 200px;
+        height: 44px;
+        float: right;
+        margin-right: 50px;
+        margin-top: -10px;
+    }
+
+
+
+    /*footer 部分  start*/
+    .footer-top-slogen{
+        position: relative;
+        width: 100%;
+        height: 91px;
+        margin-bottom: 16px;
+        background-color: #F9F9F9;
+    }
+
+    .footer-top-slogen-img{
+        position: absolute;
+        left: 50%;
+        margin-top: 20px;
+
+    }
+
+
+    .footer-top-slogen-icon1{
+        margin-left: -602px;
+    }
+
+    .footer-top-slogen-icon2{
+        margin-left: -301px;
+    }
+
+    .footer-top-slogen-icon4{
+       margin-left: 301px;
+    }
+
+    .footer-top-shopping dl{
+        float: left;
+        width: 200px;
+
+    }
+    .footer-top-shopping dt,h3{
+        height: 34px;
+        font: 400 18px/34px "微软雅黑";
+    }
+    .footer-top-shopping .last-dl{
+        width: 100px;
+    }
+
+    .coverage{
+        width: 189px;
+        height: 169px;
+        margin-right: 60px;
+        padding-left: 17px;
+        background: url("../images/china.png") no-repeat left bottom;
+    }
+    .coverage p{
+        padding-top: 8px;
+    }
+
+    .footer-bottom{
+        border-top: 1px solid #E5E5E5;
+        margin-top: 20px;
+        padding: 20px 0 30px 0;
+        text-align: center;
+    }
+    .footer-bottom-link a{
+        margin: 0 5px;
+    }
+    .footer-bottom-copyRight{
+        margin-top: 20px;
+    }
+    .footer-bottom-images{
+        margin-top: 20px;
+    }
+    .footer-bottom-images img{
+        padding-left: 5px;
+    }
+
+
+
+
+
     /*top-banner部分  start*/
 
 
