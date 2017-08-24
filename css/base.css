@@ -296,29 +296,63 @@ s, i, em {
         width: 210px;
         height: 44px;
         float: left;
-        background-color: #C81623;
+        position: relative;
+        z-index: 1;
     }
     .shotcut-nav-menu-all a{
         display: block;
-        width: 210px;
+        width: 190px;
         height: 44px;
         padding: 0 10px;
+        background-color: #B1191A;
         font: 400 16px/44px "microsoft yahei";
         color: white;
     }
     .shotcut-nav-menu-one{
-        width: 210px;
-        height: 464px;
+        height: 465px;
         margin-top: 2px;
         background-color: #C81623;
         border-left: 2px solid #B1191A;
         border-bottom: 2px solid #B1191A;
     }
+    .shotcut-nav-menu-one div{
+        height: 31px;
+        padding: 0 10px;
+        font: 400 14px/31px "microsoft yahei";
+    }
+    .shotcut-nav-menu-one div:hover{
+        background-color: #fff;
+    }
+    .shotcut-nav-menu-one div:hover a{
+        color: #C81623;
+    }
+
+    .shotcut-nav-menu-one a{
+        float: left;
+        color: #fff;
+    }
+    .shotcut-nav-menu-one i{
+        font: 400 9px/31px "consolas";
+        float: right;
+        color: #fff;
+    }
+
     .shotcut-nav-items{
         width: 730px;
         height: 44px;
         float: left;
-        background-color: pink;
+    }
+    .shotcut-nav-items li{
+        float: left;
+    }
+    .shotcut-nav-items a{
+        height: 44px;
+        padding:0 25px;
+        font: 400 15px/44px "microsoft yahei";
+        color: #333;
+    }
+    .shotcut-nav-items a:hover{
+        color: #C81623;
     }
     .shotcut-nav-img{
         width: 200px;
@@ -327,7 +361,6 @@ s, i, em {
         margin-right: 50px;
         margin-top: -10px;
     }
-
 
 
     /*footer 部分  start*/
